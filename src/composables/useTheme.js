@@ -1,6 +1,6 @@
 import { ref, watchEffect } from 'vue'
 
-const STORAGE_KEY = 'cv-theme'
+const STORAGE_KEY = 'portfolio-theme'
 
 function getInitialTheme() {
   const stored = localStorage.getItem(STORAGE_KEY)

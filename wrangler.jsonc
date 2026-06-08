@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "natan-parmigiano-cv",
+  "name": "natan-parmigiano-portfolio",
   "main": "worker/index.js",
   "compatibility_date": "2026-06-01",
   "rules": [
@@ -21,7 +21,7 @@
   },
   "routes": [
     {
-      "pattern": "natan.parmigiano.tech",
+      "pattern": "portfolio.natan.parmigiano.tech",
       "custom_domain": true
     }
   ]

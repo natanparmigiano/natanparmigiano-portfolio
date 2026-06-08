@@ -1,4 +1,4 @@
-export const resume = {
+export const portfolio = {
   en: {
     meta: {
       name: 'Natan Parmigiano',

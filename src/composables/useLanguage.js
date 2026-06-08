@@ -1,7 +1,7 @@
 import { ref, computed, watchEffect } from 'vue'
-import { resume } from '../data/resume.js'
+import { portfolio } from '../data/portfolio.js'
 
-const STORAGE_KEY = 'cv-language'
+const STORAGE_KEY = 'portfolio-language'
 
 const language = ref(localStorage.getItem(STORAGE_KEY) === 'pt' ? 'pt' : 'en')
 
@@ -11,7 +11,7 @@ watchEffect(() => {
 })
 
 export function useLanguage() {
-  const content = computed(() => resume[language.value])
+  const content = computed(() => portfolio[language.value])
 
   function setLanguage(lang) {
     if (lang === 'en' || lang === 'pt') {

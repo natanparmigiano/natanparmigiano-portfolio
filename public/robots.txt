@@ -41,4 +41,4 @@ Allow: /
 User-agent: FacebookBot
 Allow: /
 
-Sitemap: https://natan.parmigiano.tech/sitemap.xml
+Sitemap: https://portfolio.natan.parmigiano.tech/sitemap.xml

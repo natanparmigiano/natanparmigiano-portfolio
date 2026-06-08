@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://natan.parmigiano.tech/</loc>
+    <loc>https://portfolio.natan.parmigiano.tech/</loc>
   </url>
   <url>
-    <loc>https://natan.parmigiano.tech/resume.md</loc>
+    <loc>https://portfolio.natan.parmigiano.tech/portfolio.md</loc>
   </url>
   <url>
-    <loc>https://natan.parmigiano.tech/resume.pdf</loc>
+    <loc>https://portfolio.natan.parmigiano.tech/portfolio.pdf</loc>
   </url>
 </urlset>

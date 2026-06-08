@@ -1,5 +1,5 @@
 <script setup>
-import { navSections } from './data/resume.js'
+import { navSections } from './data/portfolio.js'
 import { useLanguage } from './composables/useLanguage'
 import AppHeader from './components/AppHeader.vue'
 import HeroSection from './components/HeroSection.vue'
