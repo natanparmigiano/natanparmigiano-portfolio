@@ -45,7 +45,7 @@ defineProps({
           </p>
         </div>
 
-        <ul v-if="role.highlights?.length" class="mb-4 grid gap-2 sm:grid-cols-2">
+        <ul v-if="role.highlights?.length" class="mb-4 grid gap-2">
           <li
             v-for="highlight in role.highlights"
             :key="highlight"

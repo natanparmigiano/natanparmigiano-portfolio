@@ -205,11 +205,30 @@ export const resume = {
     achievements: {
       title: 'Technical Achievements',
       items: [
-        'Designed and operated 20+ production systems processing millions of transactions.',
-        'Helped scale the organization from a 3-person operation to a 17-member engineering and delivery team.',
-        'Successfully implemented engineering best practices across all 20+ projects over a 24-month period, in multiple tech stacks.',
-        'Delivered 7 custom ERP systems, internal business applications, and end user facing applications.',
-        'Introduced PostgreSQL, Redis, Docker, Kubernetes, Pulumi, and Grafana in an organization that utilized Oracle DB and Oracle APEX, measurably reducing operational cost and complexity.',
+        {
+          icon: 'production',
+          text: 'Designed and operated 20+ production systems processing millions of transactions.',
+        },
+        {
+          icon: 'team',
+          text: 'Helped scale the organization from a 3-person operation to a 17-member engineering and delivery team.',
+        },
+        {
+          icon: 'standards',
+          text: 'Successfully implemented engineering best practices across all 20+ projects over a 24-month period, in multiple tech stacks.',
+        },
+        {
+          icon: 'delivery',
+          text: 'Delivered 7 custom ERP systems, internal business applications, and end user facing applications.',
+        },
+        {
+          icon: 'migration',
+          text: 'Introduced PostgreSQL, Redis, Docker, Kubernetes, Pulumi, and Grafana in an organization that utilized Oracle DB and Oracle APEX, measurably reducing operational cost and complexity.',
+        },
+        {
+          icon: 'security',
+          text: 'Successfully mitigated high volume DDoS attacks in a public production application during an important event, while keeping all core systems operational.',
+        },
       ],
     },
     education: {
@@ -242,22 +261,25 @@ export const resume = {
             'Advanced coursework covering IT governance, risk management, auditing methodologies, controls, and assurance practices.',
         },
         {
-          issuer: '',
+          issuer: 'IBM',
           name: 'Data Engineering',
           credential: null,
-          description: null,
+          description:
+            'Focused on modern data engineering practices including ETL pipelines, data warehousing, distributed data processing, cloud data platforms, and large-scale data management.',
         },
         {
-          issuer: '',
+          issuer: 'IBM',
           name: 'Python for Data Science, AI & Development',
           credential: null,
-          description: null,
+          description:
+            'Covered Python programming for software development, automation, data analysis, and AI workflows, including practical applications using industry-standard libraries and tools.',
         },
         {
-          issuer: '',
+          issuer: 'IBM',
           name: 'Data Science',
           credential: null,
-          description: null,
+          description:
+            'Covered statistical analysis, data visualization, machine learning fundamentals, exploratory data analysis, and data-driven problem solving using modern data science methodologies.',
         },
       ],
     },
@@ -482,11 +504,30 @@ export const resume = {
     achievements: {
       title: 'Conquistas Técnicas',
       items: [
-        'Projetei e operei mais de 20 sistemas em produção processando milhões de transações.',
-        'Ajudei a escalar a organização de uma operação com 3 pessoas para um time de 17 profissionais entre engenharia e entrega.',
-        'Implementei com sucesso boas práticas de engenharia em todos os 20+ projetos ao longo de 24 meses, em múltiplas stacks.',
-        'Entreguei 7 sistemas ERP customizados, aplicações internas de negócio e aplicações voltadas ao usuário final.',
-        'Introduzi PostgreSQL, Redis, Docker, Kubernetes, Pulumi e Grafana em uma organização que utilizava Oracle DB e Oracle APEX, reduzindo mensuravelmente custo operacional e complexidade.',
+        {
+          icon: 'production',
+          text: 'Projetei e operei mais de 20 sistemas em produção processando milhões de transações.',
+        },
+        {
+          icon: 'team',
+          text: 'Ajudei a escalar a organização de uma operação com 3 pessoas para um time de 17 profissionais entre engenharia e entrega.',
+        },
+        {
+          icon: 'standards',
+          text: 'Implementei com sucesso boas práticas de engenharia em todos os 20+ projetos ao longo de 24 meses, em múltiplas stacks.',
+        },
+        {
+          icon: 'delivery',
+          text: 'Entreguei 7 sistemas ERP customizados, aplicações internas de negócio e aplicações voltadas ao usuário final.',
+        },
+        {
+          icon: 'migration',
+          text: 'Introduzi PostgreSQL, Redis, Docker, Kubernetes, Pulumi e Grafana em uma organização que utilizava Oracle DB e Oracle APEX, reduzindo mensuravelmente custo operacional e complexidade.',
+        },
+        {
+          icon: 'security',
+          text: 'Mitiguei com sucesso ataques DDoS de alto volume em uma aplicação pública em produção durante um evento importante, mantendo todos os sistemas core operacionais.',
+        },
       ],
     },
     education: {
@@ -519,22 +560,25 @@ export const resume = {
             'Curso avançado sobre governança de TI, gestão de riscos, metodologias de auditoria, controles e práticas de assurance.',
         },
         {
-          issuer: '',
+          issuer: 'IBM',
           name: 'Data Engineering',
           credential: null,
-          description: null,
+          description:
+            'Foco em práticas modernas de data engineering, incluindo pipelines ETL, data warehousing, processamento distribuído de dados, plataformas de dados em cloud e gestão de dados em larga escala.',
         },
         {
-          issuer: '',
+          issuer: 'IBM',
           name: 'Python for Data Science, AI & Development',
           credential: null,
-          description: null,
+          description:
+            'Abordou programação Python para desenvolvimento de software, automação, análise de dados e workflows de IA, incluindo aplicações práticas com bibliotecas e ferramentas padrão do mercado.',
         },
         {
-          issuer: '',
+          issuer: 'IBM',
           name: 'Data Science',
           credential: null,
-          description: null,
+          description:
+            'Abordou análise estatística, visualização de dados, fundamentos de machine learning, análise exploratória de dados e resolução de problemas orientada a dados com metodologias modernas de data science.',
         },
       ],
     },
