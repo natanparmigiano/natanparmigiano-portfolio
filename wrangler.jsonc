@@ -8,6 +8,11 @@
       "type": "Text",
       "globs": ["**/*.md"],
       "fallthrough": true
+    },
+    {
+      "type": "Data",
+      "globs": ["**/*.pdf"],
+      "fallthrough": true
     }
   ],
   "assets": {
