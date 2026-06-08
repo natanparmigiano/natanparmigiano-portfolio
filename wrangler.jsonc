@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "natan-parmigiano-cv",
+  "compatibility_date": "2026-06-01",
+  "assets": {
+    "directory": "./dist"
+  },
+  "routes": [
+    {
+      "pattern": "natan.parmigiano.tech",
+      "custom_domain": true
+    }
+  ]
+}

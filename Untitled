@@ -1,0 +1,208 @@
+# Natan Parmigiano
+
+## Principal Engineer & Software Architect
+
+São Paulo, Brasil  
+Phone number: \+55 (11) 95412-5910  
+Email: natan.parmigiano@gmail.com  
+Linkedin: https://www.linkedin.com/in/natanparmigiano
+
+# **Professional Summary**
+
+Principal-level engineer and software architect with 8+ years of experience designing distributed systems, cloud-native platforms, and real-time applications.  
+Throughout my career, I have operated at the intersection of technical leadership and hands-on engineering, helping organizations scale systems, infrastructure, and engineering practices while remaining directly involved in architecture, platform design, incident response, and software delivery.   
+Architected and operated 20+ production systems supporting millions of transactions, large-scale event processing, and highly concurrent workloads using technologies across Node.js, TypeScript, PostgreSQL, Kubernetes, AWS, GCP, and serverless platform engineering environments.  
+Experienced in defining technical direction, establishing engineering standards, and driving platform evolution while remaining deeply hands-on.
+
+# **Core Competencies**
+
+### **Distributed Systems & Architecture**
+
+* Distributed System Design  
+* Event-Driven Architecture  
+* Real-Time Systems  
+* Microservices  
+* API Design  
+* Platform Engineering  
+* Scalability & Reliability Engineering
+
+### **Cloud & Infrastructure**
+
+* AWS  
+* Google Cloud Platform (GCP)  
+* Kubernetes  
+* Docker  
+* Terraform  
+* Pulumi  
+* Infrastructure as Code  
+* CI/CD  
+* Observability Stacks
+
+### 
+
+### **Backend & Data**
+
+* Node.js  
+* TypeScript  
+* PostgreSQL  
+* Redis  
+* MySQL  
+* MongoDB  
+* Pub/Sub Systems  
+* CDC Pipelines
+
+### **Engineering Leadership**
+
+* Technical Leadership  
+* Architecture Reviews  
+* Technical Strategy  
+* Incident Response  
+* Cross-Functional Collaboration  
+* Engineering Mentorship
+
+# **Experience**
+
+## **Paganini Tech,  São Paulo** *\- **CTO***
+
+JUL 2021 \- PRESENT
+
+I joined the company as a Senior Engineer during its early stages and gradually took on increasingly broad technical and organizational responsibilities, ultimately transitioning into the CTO role.
+
+Today, I lead the engineering strategy and technical direction across software delivery, infrastructure, architecture, hiring, and operational scaling, while maintaining a strongly hands-on approach.
+
+**Key responsibilities and achievements:**
+
+* Helped scale the organization from a 3-person operation to a 17-member engineering and delivery team.  
+* Architected and delivered more than 20 production systems spanning internal products, client platforms, and outsourcing initiatives.  
+* Established engineering standards and infrastructure patterns adopted across multiple projects.  
+* Defined architectural direction for cloud-native and distributed systems initiatives.  
+* Introduced observability, CI/CD, and platform engineering practices that became organization-wide standards.  
+* Designed and implemented distributed systems leveraging event-driven architectures, message queues, pub/sub patterns, CDC pipelines, and real-time streaming architectures.  
+* Led cloud infrastructure strategy across AWS and GCP using Kubernetes, Docker, Terraform, Pulumi, and CI/CD pipelines.  
+* Built and maintained systems processing millions of transactions and supporting large-scale real-time workloads.  
+* Participated directly in hiring processes, performance management, roadmap planning, client meetings, and technical pre-sales initiatives.  
+* Continue to lead architecture reviews, incident response, infrastructure troubleshooting, and complex technical delivery initiatives.
+
+**Primary stack:** Node.js, TypeScript, PostgreSQL, Redis, Kubernetes, AWS, GCP, Docker, Pulumi, Grafana, AI systems, and cloud-native architectures.
+
+## **Paganini Tech,  São Paulo** *\- **Senior Engineer***
+
+FEB 2020 \- JUN 2021
+
+I joined the company during its early stage and helped establish the technical foundations required to support its growth.
+
+I worked across the entire technology stack and operational environment, including:
+
+* Initial cloud infrastructure and environment setup.  
+* Definition of the Software Development Lifecycle (SDLC) and implementation of CI/CD pipelines.  
+* Development of internal systems and customer-facing products.  
+* Design and implementation of deployment pipelines and operational processes.  
+* Definition of technical architecture and technology stack decisions.  
+* Participation in technical discussions and solution design sessions with clients.
+
+I played a central role in establishing the engineering practices, infrastructure standards, and technical foundations that were later adopted across the organization.
+
+**Primary stack:** Node.js, TypeScript, PostgreSQL, Redis, Kubernetes, AWS, GCP, Docker, Pulumi, Grafana, AI systems, and cloud-native architectures.
+
+## **Marketing Labs,  São Paulo** *\- **Co-founder & IT Director***
+
+NOV 2018 \- FEB 2020
+
+I co-founded a hybrid marketing and technology company focused on custom software development, enterprise applications, e-commerce solutions, and digital operations.
+
+I led technical strategy, software delivery, and client-facing initiatives while managing a small multidisciplinary team.
+
+Highlights:
+
+•  Scaled the operation to a team of five professionals.
+
+•  Delivered custom ERP systems, internal business applications, and e-commerce solutions.
+
+•  Developed enterprise software solutions for large Brazilian organizations through strategic partnerships.
+
+•  Participated directly in technical execution, client relationship management, and operational decision-making.
+
+This experience provided early exposure to entrepreneurship, technical leadership, and the challenges of balancing product delivery with business constraints.
+
+## **Make Acelerador de Vendas,  São Paulo** *\- **Fullstack Developer***
+
+MAR 2019 \- FEB 2020
+
+I joined the company as its sole software engineer responsible for maintaining and evolving business-critical systems within a marketing agency environment, including ERP platforms, high-volume marketing workflows, and enterprise customer applications.
+
+Responsibilities included:
+
+• Maintaining and modernizing legacy PHP applications.
+
+• Architecting and developing custom ERP solutions.
+
+• Managing high-volume marketing data ingestion workflows.
+
+• Supporting large-scale client platforms and mission-critical operational systems.
+
+• Working directly with business stakeholders and enterprise clients.
+
+This was my first experience owning the full software delivery lifecycle end-to-end, encompassing technical execution, solution architecture, and close alignment with business objectives.
+
+## **Freelancer,  São Paulo** *\- **Fullstack Developer***
+
+JAN 2017 \- FEB 2019
+
+I worked as an independent software consultant while completing my technical education, helping companies address urgent technical and operational challenges.
+
+Projects included backend systems development, infrastructure troubleshooting, legacy application recovery, deployment issues, and full-stack software development.
+
+I worked across a diverse technology landscape, including PHP, Node.js, C\#, Java, Flutter, MySQL, Microsoft SQL Server, and infrastructure environments.
+
+I developed a reputation for rapidly diagnosing and resolving complex technical issues in production environments, often operating under tight deadlines and high business impact constraints.
+
+# **Technical Achievements**
+
+• Architected and operated 20+ production systems supporting millions of transactions.  
+• Designed real-time auction platforms supporting thousands of concurrent users.  
+• Delivered a 50+ page enterprise platform with a two-engineer team in six months.  
+• Successfully mitigated terabyte-scale DDoS attacks against production systems.  
+• Defined cloud and platform standards adopted across a 17-person engineering organization.
+
+# **Education**
+
+## **ABC Federal University, São Bernardo do Campo, SP***\- **B.Sc. Computer Science***
+
+JAN 2018 \- FEB 2020
+
+Studied Computer Science at UFABC, one of Brazil's leading public universities for STEM education. Coursework focused on computer science fundamentals, software engineering, algorithms, data structures, and systems design, complementing parallel professional experience in software development and technology consulting.
+
+## **ETEC Lauro Gomes, São Bernardo do Campo, SP***\- **Technical Diploma in Information Technology***
+
+JAN 2015 \- DEC 2017
+
+Completed a highly competitive technical education program focused on software development, systems analysis, networking, databases, and information technology fundamentals.
+
+# **Certifications**
+
+## **The Hong Kong University of Science and Technology***\- **Information Systems Auditing, Controls and Assurance***
+
+H8BQBZ9ETBTV
+
+Advanced coursework covering IT governance, risk management, auditing methodologies, controls, and assurance practices.
+
+## **IBM***\- **Data Engineering***
+
+VVP3S2UZYAA4
+
+## **IBM***\- **Python for Data Science, AI & Development***
+
+WWQATCKH56FP
+
+## **IBM***\- **Data Science***
+
+VVP3S2UZYAA4
+
+# **Languages**
+
+## **Portuguese** *\- **Native Fluency***
+
+## **English** *\- **Near Native Fluency***
+
+## *(C2 Proficient)*
+
