@@ -4,12 +4,9 @@ import { useLanguage } from './composables/useLanguage'
 import AppHeader from './components/AppHeader.vue'
 import HeroSection from './components/HeroSection.vue'
 import SummarySection from './components/SummarySection.vue'
-import CompetenciesSection from './components/CompetenciesSection.vue'
-import ExperienceSection from './components/ExperienceSection.vue'
-import AchievementsSection from './components/AchievementsSection.vue'
-import EducationSection from './components/EducationSection.vue'
-import CertificationsSection from './components/CertificationsSection.vue'
-import LanguagesSection from './components/LanguagesSection.vue'
+import AboutPortfolioSection from './components/AboutPortfolioSection.vue'
+import ProjectsSection from './components/ProjectsSection.vue'
+import ProjectTimeline from './components/ProjectTimeline.vue'
 
 const { language, content, setLanguage } = useLanguage()
 </script>
@@ -31,20 +28,21 @@ const { language, content, setLanguage } = useLanguage()
     />
 
     <main class="mx-auto max-w-5xl px-5 pb-16 sm:px-6">
-      <HeroSection :meta="content.meta" :labels="content.labels" :summary="content.summary" />
+      <HeroSection :meta="content.meta" :hero="content.hero" :labels="content.labels" />
 
-      <SummarySection :summary="content.summary" />
-      <CompetenciesSection :competencies="content.competencies" />
-      <ExperienceSection
-        :experience="content.experience"
-        :primary-stack-label="content.labels.primaryStack"
-        :language="language"
+      <SummarySection :about-me="content.aboutMe" />
+      <AboutPortfolioSection :about-portfolio="content.aboutPortfolio" />
+      <ProjectsSection
+        :projects="content.projects"
+        :labels="content.labels"
+        :disclosure-levels="content.aboutPortfolio.disclosureLevels"
       />
-      <AchievementsSection :achievements="content.achievements" />
-      <EducationSection :education="content.education" />
-      <CertificationsSection :certifications="content.certifications" />
-      <LanguagesSection :languages="content.languages" />
     </main>
+
+    <ProjectTimeline
+      :projects="content.projects.items"
+      :labels="content.labels"
+    />
 
     <footer class="border-t border-[var(--border-subtle)] bg-[var(--bg)]/75 py-6 text-center text-xs text-[var(--text-subtle)] backdrop-blur">
       {{ content.meta.name }} · {{ new Date().getFullYear() }}

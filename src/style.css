@@ -95,6 +95,16 @@ a:hover {
   opacity: 0.8;
 }
 
-.tech-card > * {
-  position: relative;
+.proudest-card {
+  border-color: rgba(212, 160, 23, 0.45);
+  box-shadow: var(--shadow), 0 0 24px rgba(212, 160, 23, 0.08);
+}
+
+.proudest-card:hover {
+  border-color: rgba(230, 180, 34, 0.72);
+  box-shadow: var(--shadow), 0 0 32px rgba(212, 160, 23, 0.14);
+}
+
+.proudest-card::before {
+  background: linear-gradient(135deg, rgba(212, 160, 23, 0.14), transparent 42%);
 }

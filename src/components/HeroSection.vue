@@ -4,11 +4,11 @@ defineProps({
     type: Object,
     required: true,
   },
-  labels: {
+  hero: {
     type: Object,
     required: true,
   },
-  summary: {
+  labels: {
     type: Object,
     required: true,
   },
@@ -29,20 +29,30 @@ defineProps({
       </div>
 
       <p class="mb-3 font-mono text-xs font-semibold uppercase tracking-[0.28em] text-[var(--accent)]">
-        {{ meta.headline }}
+        {{ hero.eyebrow }}
       </p>
-      <h1 class="mb-4 max-w-3xl text-4xl font-bold tracking-[-0.04em] text-[var(--text)] sm:text-6xl">
+      <h1 class="mb-2 max-w-3xl text-4xl font-bold tracking-[-0.04em] text-[var(--text)] sm:text-6xl">
         {{ meta.name }}
       </h1>
+      <p class="mb-3 text-sm font-medium text-[var(--text-muted)]">{{ meta.headline }}</p>
       <p class="mb-4 text-sm font-medium text-[var(--text-subtle)]">{{ meta.location }}</p>
       <p class="mb-7 max-w-2xl text-base leading-8 text-[var(--text-muted)] sm:text-lg">
-        {{ summary.paragraphs[0] }}
+        {{ hero.tagline }}
       </p>
 
       <div class="flex flex-wrap gap-3">
         <a
-          :href="`mailto:${meta.email}`"
+          href="#projects"
           class="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] px-4 py-2.5 text-sm font-semibold !text-white no-underline shadow-[0_16px_40px_var(--glow)] transition hover:-translate-y-0.5 hover:bg-[var(--accent-hover)] hover:!text-white"
+        >
+          {{ labels.viewProjects }}
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14m0 0-7-7m7 7 7-7" />
+          </svg>
+        </a>
+        <a
+          :href="`mailto:${meta.email}`"
+          class="inline-flex items-center gap-2 rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)]/80 px-4 py-2.5 text-sm font-semibold text-[var(--text)] no-underline shadow-[var(--shadow)] transition hover:-translate-y-0.5 hover:border-[var(--accent)] hover:text-[var(--accent)]"
         >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" class="h-4 w-4" aria-hidden="true">
             <rect x="2" y="4" width="20" height="16" rx="2" />
@@ -66,14 +76,18 @@ defineProps({
         <span class="h-3 w-3 rounded-full bg-[#ff5f57]" />
         <span class="h-3 w-3 rounded-full bg-[#ffbd2e]" />
         <span class="h-3 w-3 rounded-full bg-[#28c840]" />
-        <span class="ml-2 font-mono text-xs text-[var(--text-subtle)]">profile.sh</span>
+        <span class="ml-2 font-mono text-xs text-[var(--text-subtle)]">{{ hero.terminalFile }}</span>
       </div>
 
       <div class="space-y-5">
         <div class="font-mono text-sm">
-          <p class="text-[var(--text-subtle)]">$ whoami</p>
-          <p class="text-[var(--text)]">{{ meta.headline }}</p>
+          <p class="text-[var(--text-subtle)]">{{ hero.terminalPrompt }}</p>
+          <p class="text-[var(--text)]">{{ hero.terminalOutput }}</p>
         </div>
+
+        <p class="font-mono text-xs leading-6 text-[var(--text-subtle)]">
+          {{ hero.terminalNote }}
+        </p>
 
         <dl class="grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
           <div

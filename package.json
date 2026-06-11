@@ -10,7 +10,10 @@
     "preview": "vite preview",
     "preview:worker": "wrangler dev --local",
     "deploy": "pnpm run build && wrangler deploy",
-    "deploy:assets": "wrangler deploy"
+    "deploy:assets": "wrangler deploy",
+    "sync:portfolio": "node scripts/sync-portfolio.mjs && node scripts/sync-portfolio-pt.mjs",
+    "generate:pdf": "node scripts/sync-portfolio.mjs && node scripts/generate-portfolio-pdf.mjs",
+    "generate:pdf:pt": "node scripts/sync-portfolio.mjs && node scripts/sync-portfolio-pt.mjs && node scripts/generate-portfolio-pdf.mjs --lang pt --output PORTFOLIO.pt.pdf"
   },
   "dependencies": {
     "simple-icons": "^16.22.0",
@@ -19,6 +22,7 @@
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.4",
     "@vitejs/plugin-vue": "^5.2.3",
+    "puppeteer": "^24.36.1",
     "tailwindcss": "^4.1.4",
     "vite": "^6.3.5",
     "wrangler": "^4.95.0"
