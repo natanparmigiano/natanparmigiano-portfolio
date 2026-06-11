@@ -23,6 +23,7 @@ export const portfolio = {
       location: 'São Caetano do Sul, São Paulo, Brazil',
       email: 'natan.parmigiano@gmail.com',
       linkedin: 'https://www.linkedin.com/in/natanparmigiano',
+      resumeUrl: 'https://natan.parmigiano.tech/',
       focusAreas: ['Distributed Systems', 'Enterprise Software', 'Technical Leadership'],
       stats: [
         { value: String(projects.length), label: 'highlighted projects' },
@@ -60,6 +61,7 @@ export const portfolio = {
     },
     labels: {
       viewProjects: 'View Projects',
+      viewResume: 'My Resume',
       proudestProjects: 'My most relevant work',
       proudestShowcase: '🌟 Most Relevant Work',
       proudestRanking: 'Ranking',
@@ -87,6 +89,7 @@ export const portfolio = {
       location: 'São Caetano do Sul, São Paulo, Brasil',
       email: 'natan.parmigiano@gmail.com',
       linkedin: 'https://www.linkedin.com/in/natanparmigiano',
+      resumeUrl: 'https://natan.parmigiano.tech/',
       focusAreas: ['Sistemas Distribuídos', 'Software Corporativo', 'Liderança Técnica'],
       stats: [
         { value: String(projectsPt.length), label: 'projetos em destaque' },
@@ -124,6 +127,7 @@ export const portfolio = {
     },
     labels: {
       viewProjects: 'Ver Projetos',
+      viewResume: 'Meu Currículo',
       proudestProjects: 'Meu trabalho mais relevante',
       proudestShowcase: '🌟 Trabalho Mais Relevante',
       proudestRanking: 'Ranking',
