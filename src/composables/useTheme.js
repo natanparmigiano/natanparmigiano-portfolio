@@ -1,14 +1,17 @@
 import { ref, watchEffect } from 'vue'
-
-const STORAGE_KEY = 'portfolio-theme'
+import { THEME_STORAGE_KEY, resolveTheme } from '../theme.js'
 
 function getInitialTheme() {
   if (typeof window === 'undefined') return 'light'
 
-  const stored = localStorage.getItem(STORAGE_KEY)
-  if (stored === 'light' || stored === 'dark') return stored
+  const existing = document.documentElement.dataset.theme
+  if (existing === 'light' || existing === 'dark') return existing
 
-  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  const stored = localStorage.getItem(THEME_STORAGE_KEY)
+  return resolveTheme(
+    stored,
+    window.matchMedia('(prefers-color-scheme: dark)').matches,
+  )
 }
 
 const theme = ref(getInitialTheme())
@@ -23,7 +26,7 @@ watchEffect(() => {
   document.documentElement.dataset.theme = theme.value
 
   if (typeof localStorage !== 'undefined') {
-    localStorage.setItem(STORAGE_KEY, theme.value)
+    localStorage.setItem(THEME_STORAGE_KEY, theme.value)
   }
 })
 
