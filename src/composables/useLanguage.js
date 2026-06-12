@@ -1,21 +1,24 @@
-import { ref, computed, watchEffect } from 'vue'
+import { computed } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import { portfolio } from '../data/portfolio.js'
 
 const STORAGE_KEY = 'portfolio-language'
 
-const language = ref(localStorage.getItem(STORAGE_KEY) === 'pt' ? 'pt' : 'en')
-
-watchEffect(() => {
-  localStorage.setItem(STORAGE_KEY, language.value)
-  document.documentElement.lang = language.value === 'pt' ? 'pt-BR' : 'en'
-})
-
 export function useLanguage() {
+  const route = useRoute()
+  const router = useRouter()
+
+  const language = computed(() => (route.meta.lang === 'pt' ? 'pt' : 'en'))
   const content = computed(() => portfolio[language.value])
 
   function setLanguage(lang) {
-    if (lang === 'en' || lang === 'pt') {
-      language.value = lang
+    if (lang !== 'en' && lang !== 'pt') return
+    if (lang === language.value) return
+
+    router.push(lang === 'pt' ? '/pt' : '/')
+
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem(STORAGE_KEY, lang)
     }
   }
 
